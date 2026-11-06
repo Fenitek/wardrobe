@@ -1,0 +1,9 @@
+{
+  "name": "background-remover",
+  "version": "1.0.0",
+  "description": "Rimozione dello sfondo sul dispositivo (Vision su iOS, ML Kit su Android)",
+  "private": true,
+  "license": "UNLICENSED",
+  "author": "fenitek",
+  "homepage": "https://github.com/fenitek/wardrobe"
+}

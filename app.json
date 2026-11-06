@@ -1,0 +1,61 @@
+{
+  "expo": {
+    "name": "Wardrobe",
+    "slug": "wardrobe",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "wardrobe",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "icon": "./assets/expo.icon",
+      "bundleIdentifier": "com.fenitek.wardrobe",
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.fenitek.wardrobe",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "single",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FFFFFF",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 76
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Wardrobe usa le tue foto per aggiungere i capi all'armadio e per la tua figura.",
+          "cameraPermission": "Wardrobe usa la fotocamera per fotografare i tuoi vestiti e la tua figura."
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Wardrobe mostra le foto della galleria per aggiungere i capi all'armadio.",
+          "savePhotosPermission": "Wardrobe può salvare le immagini nella galleria.",
+          "isAccessMediaLocationEnabled": false,
+          "granularPermissions": ["photo"]
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": false,
+      "reactCompiler": false
+    }
+  }
+}
