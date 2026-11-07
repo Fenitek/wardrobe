@@ -66,6 +66,8 @@ npm install
 npx expo start
 ```
 
+Serve Node.js 22.13+ o 24 LTS (le versioni dispari come la 23 non sono supportate).
+
 Inquadra il QR code con l'app **Expo Go** ([Android](https://play.google.com/store/apps/details?id=host.exp.exponent) / [iOS](https://apps.apple.com/app/expo-go/id982107779)). Tutto funziona tranne la rimozione dello sfondo, che richiede il modulo nativo: in Expo Go le foto vengono salvate senza scontorno. Su Android, Expo Go potrebbe anche non mostrare la galleria dentro il pannello; in quel caso usa "Apri galleria".
 
 ### 2. Versione installabile completa (con rimozione dello sfondo)
